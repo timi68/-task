@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Timi James",
+    "gender": "Male"
+  },
+  {
+    "id": 2,
+    "name": "Grace Alves",
+    "gender": "Female"
+  },
+  {
+    "id": 3,
+    "name": "Chris John",
+    "gender": "Male"
+  },
+  {
+    "id": 4,
+    "name": "Dave Johnson",
+    "gender": "Male"
+  },
+  {
+    "id": 5,
+    "name": "Ayomide",
+    "gender": "Female"
+  }
+]
