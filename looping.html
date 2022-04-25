@@ -37,11 +37,7 @@
 
         // looping through the identity arrays
         for (var i, i = 0; i < identityIDs.length; i++) {
-          const favorites = await getFavorites(identityIDs[i]);
-          favorites[identityIDs[i]] = favorites;
-        }
-
-        async function getFavorites(identity) {
+          const identity = identityIDs[i];
           let url = `https://api-internal-eks.eu-west.dev.systems/v1/member/${identity}/favourites`;
 
           let options = {
@@ -61,6 +57,7 @@
           const response = await data.json();
 
           return response;
+          favorites[identityIDs[i]] = response;
         }
       }
 
